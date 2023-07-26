@@ -67,6 +67,16 @@ const UserDisplay = () => {
                 <div>
                   {user ? (
                     <div>
+                      <img
+                        src={user.picture.large}
+                        alt="User"
+                        style={{
+                          width: '150px',
+                          height: '150px',
+                          borderRadius: '50%',
+                          border: '3px solid #ddd',
+                        }}
+                      />
                       <h2>{`${user.name.first} ${user.name.last}`}</h2>
                       <p>Email: {user.email}</p>
                       <Button 
