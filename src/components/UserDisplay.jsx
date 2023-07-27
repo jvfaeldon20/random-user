@@ -49,6 +49,7 @@ const UserDisplay = () => {
       <Content
         style={{
           padding: '50px',
+          height: '100vh'
         }}
       >
         <div
